@@ -13,8 +13,111 @@
   // Write your JS here.
   // Open the JS console and refresh the page to see the output.
 
-  console.log("Hey dude!")
+  // // console.log
 
-  `Your lucky number is ${6 * 7}`
+  // console.log("Hey dude!");
+
+  // // string interpolations
+
+  // console.log(`Your lucky number is ${6 * 7}`);
+
+  // // short variables
+
+  // let name = "Alice";
+
+  // console.log(`howdy ${name}`);
+
+  // // reasigning a variable
+
+  // name = "Bob";
+
+  // console.log(`howdy ${name}`);
+
+  // // const
+
+  // const pi = 3.14;
+
+  // console.log(pi);
+
+  // // long variables
+
+  // let aReallyLongVariableName = 42;
+
+  // console.log(aReallyLongVariableName);
+
+  // // functions
+
+  // function greet() {
+  //   console.log("howdy!");
+  // }
+
+  // greet();
+
+  // function greeting(person) {
+  //   console.log(`howdy, ${person}`);
+  // } 
+
+  // greeting("Alice");
+
+  // // for loop
+
+  // for (let  i = 2; i < 6; i++) {
+  //   console.log(i * i)
+  // }
+
+  // // forEach
+
+  // let fruits = ["apples", "oranges", "bananas"];
+  // console.log(fruits[1]);
+  // console.log(fruits.length)
+
+  // fruits.forEach(function(fruit) {
+  //   console.log(`I love ${fruit}!`)
+  // });
+
+  // // Math.random
+
+  // let win_probability = Math.random();
+
+  // console.log(win_probability);
+
+  // // Math.floor
+
+  // let dice_roll = Math.floor(Math.random() * 6);
+
+  // console.log(dice_roll);
+
+  // // Game
+
+  // let moves = ["rock", "paper", "scissors"];
+
+  // let random_index = Math.floor(Math.random() * 3);
+
+  // let computer_move = moves[random_index];
+
+  // console.log(`The computer played ${computer_move}`);
+
+  // if(computer_move === "rock") {
+  //   console.log("You tied.");
+  // } else if (computer_move === "paper") {
+  //   console.log("You lost.");
+  // } else {
+  //   console.log("You won.");
+  // }
+
+  // FizzBuzz
+
+  for(let num = 1; num <= 100; num++) {
+    //console.log(num)
+    if(num % 3 === 0 && num % 5 === 0) {
+      console.log("fizz") 
+    } else if (num % 3 === 0) {
+      console.log("buzz")
+    } else if (num % 5 === 0) {
+      console.log("fizzbuzz")
+    } else {
+      console.log(num)
+    }
+  }
 
 </script>
